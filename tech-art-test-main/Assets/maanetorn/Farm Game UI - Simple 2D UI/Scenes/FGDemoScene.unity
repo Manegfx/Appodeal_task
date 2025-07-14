@@ -1296,6 +1296,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1834611357}
+  - {fileID: 950209513}
   m_Father: {fileID: 942300267}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -1946,11 +1947,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1747510951}
+  m_Father: {fileID: 528682732}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 255}
+  m_AnchoredPosition: {x: 0, y: 1.6774902}
   m_SizeDelta: {x: 458.59, y: 174.6305}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &486911272
@@ -2177,7 +2178,8 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 486911271}
   m_Father: {fileID: 1747510951}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -4780,7 +4782,7 @@ PrefabInstance:
   serializedVersion: 2
   m_Modification:
     serializedVersion: 3
-    m_TransformParent: {fileID: 1834611357}
+    m_TransformParent: {fileID: 198737803}
     m_Modifications:
     - target: {fileID: 427899219788358603, guid: b8c4078ab4d459244bdbde1083a3309c, type: 3}
       propertyPath: m_Pivot.x
@@ -4872,7 +4874,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 955478540480558198, guid: b8c4078ab4d459244bdbde1083a3309c, type: 3}
       propertyPath: m_Name
-      value: RedBtn (2)
+      value: ExitBtn
       objectReference: {fileID: 0}
     - target: {fileID: 6997011253584825770, guid: b8c4078ab4d459244bdbde1083a3309c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -5062,7 +5064,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 955478540480558198, guid: b8c4078ab4d459244bdbde1083a3309c, type: 3}
       propertyPath: m_Name
-      value: RedBtn (1)
+      value: ExitBtn
       objectReference: {fileID: 0}
     - target: {fileID: 6997011253584825770, guid: b8c4078ab4d459244bdbde1083a3309c, type: 3}
       propertyPath: m_SizeDelta.x
@@ -6381,7 +6383,6 @@ RectTransform:
   m_Children:
   - {fileID: 528682732}
   - {fileID: 3953052524656213157}
-  - {fileID: 486911271}
   - {fileID: 63275002}
   m_Father: {fileID: 823253097}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -6635,7 +6636,6 @@ RectTransform:
   - {fileID: 1868594764}
   - {fileID: 2114369983}
   - {fileID: 967196812}
-  - {fileID: 950209513}
   m_Father: {fileID: 198737803}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -7972,6 +7972,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: YellowBtn
       objectReference: {fileID: 0}
+    - target: {fileID: 9050166517383155896, guid: 86fb7408545b84c47869eba4104b40d3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -8241,6 +8245,10 @@ PrefabInstance:
     - target: {fileID: 7263467289281068813, guid: cf2acf4c1ce22ee4e9203d077e89a902, type: 3}
       propertyPath: m_Name
       value: PurpleBtn
+      objectReference: {fileID: 0}
+    - target: {fileID: 7263467289281068813, guid: cf2acf4c1ce22ee4e9203d077e89a902, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
